@@ -1,4 +1,4 @@
-/*
+package leetcode;/*
  * @lc app=leetcode.cn id=4 lang=java
  *
  * [4] 寻找两个正序数组的中位数
@@ -7,7 +7,7 @@
 // @lc code=start
 
 
-class Solution {
+class Solution2 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n=nums2.length+nums1.length;
         int[] myarray=new int[n];

@@ -1,4 +1,4 @@
-/*
+package leetcode;/*
  * @lc app=leetcode.cn id=3 lang=java
  *
  * [3] 无重复字符的最长子串
@@ -9,7 +9,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-class Solution {
+class Solution1 {
 
     public int lengthOfLongestSubstring(String s) {
         Set myData=new HashSet<>();

@@ -1,11 +1,11 @@
-/*
+package leetcode;/*
  * @lc app=leetcode.cn id=2 lang=java
  *
  * [2] 两数相加
  */
 
 // @lc code=start
-class Solution {
+class Solution3 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
       ListNode head = null, tail = null;
       int carry = 0;
